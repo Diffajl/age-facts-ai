@@ -25,7 +25,7 @@ class _HomePageMobileState extends State<HomePageMobile> {
 
   Future<void> _sendMessage() async {
     final _groq = Groq(
-      apiKey: "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",
+      apiKey: "YOUR_API_KEY",
     );
     _groq.startChat();
     try {
